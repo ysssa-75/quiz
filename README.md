@@ -6,6 +6,7 @@
 ## 概要
 
 - Google Apps Script で作成したから API から問題データを取得して表示
+- ランダムに出題されるクイズに答えるプリケーション
 
 ## 操作
 
@@ -16,12 +17,12 @@
 ## 主な技術
 
 - JavaScript
-- CSS/HTML
-- HTML
-- react
   <img src="https://img.shields.io/badge/-JavaScript-5f5f5f.svg?logo=javascript">
+- CSS/HTML
   <img src="https://img.shields.io/badge/-HTML-5f5f5f.svg?logo=html5">
+- HTML
   <img src="https://img.shields.io/badge/-CSS-5f5f5f.svg?logo=css">
+- react
   <img src="https://img.shields.io/badge/-React-5f5f5f.svg?logo=react">
 
 ## 内容物
