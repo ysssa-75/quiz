@@ -5,8 +5,12 @@
 
 ## 概要
 
-- Google Apps Script で作成したから API から問題データを取得して表示
+- Google Apps Script で作成した API から問題データを取得して表示
 - ランダムに出題されるクイズに答えるプリケーション
+
+## 起動方法
+
+- npm install
 
 ## 操作
 
@@ -16,13 +20,13 @@
 
 ## 主な技術
 
-- JavaScript
-  <img src="https://img.shields.io/badge/-JavaScript-5f5f5f.svg?logo=javascript">
+<!-- - JavaScript
 - CSS/HTML
-  <img src="https://img.shields.io/badge/-HTML-5f5f5f.svg?logo=html5">
 - HTML
+- react -->
+  <img src="https://img.shields.io/badge/-JavaScript-5f5f5f.svg?logo=javascript">
+  <img src="https://img.shields.io/badge/-HTML-5f5f5f.svg?logo=html5">
   <img src="https://img.shields.io/badge/-CSS-5f5f5f.svg?logo=css">
-- react
   <img src="https://img.shields.io/badge/-React-5f5f5f.svg?logo=react">
 
 ## 内容物
