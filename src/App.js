@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-import Login from "./Login";
 import Quiz from "./Quiz";
 import Result from "./Result";
 
@@ -21,7 +20,7 @@ function App() {
   const newQuiz = () => {
     setLoading(true);
     fetch(
-      "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLjOhSds3tSqqRtlBT49YuTV0VDxvWxkf868ijojp0KtrIkY9XK1XWsydYzlNOZKk8Qpo2hOyNUMbIhRjy2FmaDMjAjdpeyJftQ1kFJDDgzdQ3THF_gIscfqPzecL0DYho1CD0hsArlwO5teqbTPnZS_6_bm8CW9KKjvdug6_XbVNxpUuCBAXlYZPEw2k4MgHih3xNbIcQGDkDVbtVDPI3FhgloL_a0b02X6hUjQMHgw8hRcCR2h3nYcN3tCpUqe4cnu_dGCPV1-d-0Ac-flCLkZ5IEHbBxVVFACpv3R&lib=MIn3grapnzMwpJxlaWfcYIrbnA_6pzS4l"
+      "https://script.google.com/macros/s/AKfycbzDx3dX-LSgcHNOVhQA_o9GfIo_X3RO3Kzdx_RUx3GJO9FwoVasY0hbutroDKr_YqeEnw/exec"
     )
       .then((res) => res.json())
       .then((data) => {
@@ -90,7 +89,6 @@ function App() {
 
   if (loading) return <div>読み込み中...</div>;
   if (err) return <div>読み込みエラー: {err.message}</div>;
-  if (!admin) return <Login onLogin={setAdmin} />;
   if (!isStarted)
     return (
       <div>
